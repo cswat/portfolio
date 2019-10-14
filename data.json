@@ -1,0 +1,24 @@
+{
+    "projects":
+    [
+        {
+            "id": 1,
+            "project_name": "5280 not 1984",
+            "description": "Site for facial recognition ban effort in Denver",
+            "technologies": ["HTML", "CSS"],
+            "live_link": "https://www.5280not1984.com",
+            "github_link": "https://github.com/cswat/5280not1984",
+            "image_urls": ["../static/images/5280not1984.png", "../static/images/5280not1984-2.png"]            
+        },
+        {
+            "id": 2,
+            "project_name": "Quote generator",
+            "description": "A JS quote generator",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://www.cswat.github.io",
+            "github_link": "https://github.com/cswat/quote-generator",
+            "image_urls": ["../static/images/QuoteGen.png", "../static/images/QuoteGen2.png"]    
+        }
+    ]
+
+}
