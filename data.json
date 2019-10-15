@@ -18,6 +18,33 @@
             "live_link": "https://www.cswat.github.io",
             "github_link": "https://github.com/cswat/quote-generator",
             "image_urls": ["../static/images/QuoteGen.png", "../static/images/QuoteGen2.png"]    
+        },
+        {
+            "id": 3,
+            "project_name": "Pagination generation",
+            "description": "A page that takes in records and generates pagination dynamically",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "",
+            "github_link": "https://github.com/cswat/list-pagination",
+            "image_urls": ["../static/images/pagination1.png", "../static/images/pagination2.png"]            
+        },
+        {
+            "id": 4,
+            "project_name": "Ajax page",
+            "description": "A page built with AJAX calls and web APIs",
+            "technologies": ["HTML", "CSS", "JavaScript", "Ajax", "Web APIs"],
+            "live_link": "",
+            "github_link": "https://github.com/cswat/ajax-page",
+            "image_urls": ["../static/images/ajaxPage.png", "../static/images/ajaxPage2.png"]            
+        },
+        {
+            "id": 5,
+            "project_name": "Phrase guesser",
+            "description": "A guessing game built in Javascript",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "",
+            "github_link": "https://github.com/cswat/phrase-guesser",
+            "image_urls": ["../static/images/phraseHunter1.png", "../static/images/phraseHunter2.png"]            
         }
     ]
 
