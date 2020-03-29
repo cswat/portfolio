@@ -56,6 +56,11 @@ a:hover{
   line-height: 0;
 }
 
+.brand-icon {
+  max-width: 60px;
+  padding-right: 6px;
+}
+
 .portfolio-me{
   padding: 20px;
   background: #121213;

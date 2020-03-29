@@ -13,7 +13,7 @@
         {
             "id": 2,
             "project_name": "Quote generator",
-            "description": "A JS quote generator",
+            "description": "Playing around with JavaScript",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://www.cswat.github.io",
             "github_link": "https://github.com/cswat/quote-generator",
