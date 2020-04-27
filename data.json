@@ -45,6 +45,15 @@
             "live_link": "",
             "github_link": "https://github.com/cswat/phrase-guesser",
             "image_urls": ["../static/images/phraseHunter1.png", "../static/images/phraseHunter2.png"]            
+        },
+        {
+            "id": 6,
+            "project_name": "Better2020",
+            "description": "A java-based phone app used to facilitate juvenile and preposterous wagers.",
+            "technologies": ["Java", "Kotlin"],
+            "live_link": "",
+            "github_link": "https://github.com/cswat/better2020",
+            "image_urls": ["../static/images/better2020-1.png"] 
         }
     ]
 
