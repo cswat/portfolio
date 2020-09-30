@@ -73,6 +73,36 @@
                         "live_link": "",
                         "github_link": "https://github.com/cswat/better2020",
                         "image_urls": ["../static/images/better2020-2.png", "../static/images/better2020-1.png"] 
+                    },
+                    {
+                        "id": 7,
+                        "project_type": "dataviz",
+                        "project_name": "2020 DNC/RNC phrases",
+                        "description": "The issues that separate us: Most popular phrases at the DNC & RNC",
+                        "technologies": ["Excel for data organization", "Tableau"],
+                        "live_link": "https://public.tableau.com/profile/connor.swatling#!/vizhome/PhrasesusedatDNCandRNC-differential/Differential",
+                        "github_link": "",
+                        "image_urls": ["../static/images/DNCRNCviz1.png"] 
+                    },
+                    {
+                        "id": 8,
+                        "project_type": "dataviz",
+                        "project_name": "FDIC insured acquired/acquiring banks 2001-2017",
+                        "description": "A representation of the 2008 Great Recession's impact on moneylenders.",
+                        "technologies": ["data.gov", "Tableau"],
+                        "live_link": "https://public.tableau.com/profile/connor.swatling#!/vizhome/AcquiredBanks/Closuresovertimebybank",
+                        "github_link": "",
+                        "image_urls": ["../static/images/FDICviz1.png"] 
+                    },
+                    {
+                        "id": 9,
+                        "project_type": "dataviz",
+                        "project_name": "2020 California wildfires",
+                        "description": "The state of California's wildfires as of September 10th, 2020. This was a challenge to scrape data from Cal Fire and Wikipedia to represent the causes and state of each fire.",
+                        "technologies": ["Python for data extraction from Cal Fire/Wikipedia", "Tableau"],
+                        "live_link": "https://public.tableau.com/profile/connor.swatling#!/vizhome/2020Californiawildfires/FiresinCalifornia",
+                        "github_link": "",
+                        "image_urls": ["../static/images/2020CAfiresviz1.png"] 
                     }
                 ],
             "project_types":
@@ -82,14 +112,14 @@
                         "long_name": "Data visualization",
                         "short_name": "dataviz",
                         "url_path": "/dataviz",
-                        "description": "A showcase for data viz"
+                        "description": "Data visualization is the art of converting datasets into meaningful insights that can be parsed at a glance."
                     },
                     {
                         "id": 3,
                         "long_name": "Web development",
                         "short_name": "webdev",
                         "url_path": "/webdev",
-                        "description": "A showcase for web dev"
+                        "description": "\"Websites promote you 24/7: No employee will do that.\" -Paul Cookson."
                     }
                 ]
         }

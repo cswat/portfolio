@@ -16,7 +16,8 @@ block content
             li #{technology}
         if currentProject.live_link
           a.button.expanded(href=`${currentProject.live_link}` target="_blank") Live demo
-        a.button.expanded(href=`${currentProject.github_link}` target="_blank") GitHub Repo
+        if currentProject.github_link
+          a.button.expanded(href=`${currentProject.github_link}` target="_blank") GitHub Repo
     
     each url in imageURLs
       img.image(src=`${url}`)
