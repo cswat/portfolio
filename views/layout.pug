@@ -22,18 +22,19 @@ html(class="no-js" lang="en" dir="ltr")
 
             p.text-light
               | Systems Analyst at Empower Retirement
+              br
+              br
 
-            a(href='/dataviz') Data visualization
-            br
-            a(href='/graphicdesign') Graphic design
-            br
-            a(href='/webdev') Web development
-            br
-            a(href='/writing') Writing
-            br
-            br
-            br
-            a(href='/endorsements') Endorsements
+              a(href='/') About me →
+              br
+              br
+
+              each project_type in data.project_types
+                a(href=project_type.url_path) #{project_type.long_name} →
+                br
+
+              br
+              a(href='/endorsements') Endorsements →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large

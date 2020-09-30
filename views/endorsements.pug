@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+      h1 My endorsements
+      p.lead.text-light
+        | Below are a list of people/products/ideas that I recommend. Take a look!
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+      each endorsement in endorsements
+        .cell
+            a(href=endorsement.link)
+                img.thumbnail(src=`${endorsement.image_url}`)
+            h5=`${endorsement.name}`
+            p
+                strong About:
+                |   #{endorsement.description}
+            p
+                strong Why I endorse:
+                |   #{endorsement.reason}
