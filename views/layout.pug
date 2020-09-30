@@ -4,7 +4,7 @@ html(class="no-js" lang="en" dir="ltr")
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
+    title Connor Swatling
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
@@ -14,7 +14,8 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='../static/images/profilePicture.jpg')
+            a(href='/')
+              img.thumbnail(src='../static/images/profilePicture.jpg')
           .cell.auto
 
             h5 Connor Swatling
@@ -22,7 +23,17 @@ html(class="no-js" lang="en" dir="ltr")
             p.text-light
               | Systems Analyst at Empower Retirement
 
-            a(href='/about') About me →
+            a(href='/dataviz') Data visualization
+            br
+            a(href='/graphicdesign') Graphic design
+            br
+            a(href='/webdev') Web development
+            br
+            a(href='/writing') Writing
+            br
+            br
+            br
+            a(href='/endorsements') Endorsements
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large

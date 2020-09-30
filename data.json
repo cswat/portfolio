@@ -3,6 +3,7 @@
     [
         {
             "id": 1,
+            "project_type": "webdev",
             "project_name": "5280 not 1984",
             "description": "Site for facial recognition ban effort in Denver",
             "technologies": ["HTML", "CSS"],
@@ -12,6 +13,7 @@
         },
         {
             "id": 2,
+            "project_type": "webdev",
             "project_name": "Quote generator",
             "description": "Playing around with JavaScript",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -21,6 +23,7 @@
         },
         {
             "id": 3,
+            "project_type": "webdev",
             "project_name": "Pagination generation",
             "description": "A page that takes in records and generates pagination dynamically",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -30,6 +33,7 @@
         },
         {
             "id": 4,
+            "project_type": "webdev",
             "project_name": "Ajax page",
             "description": "A page built with AJAX calls and web APIs",
             "technologies": ["HTML", "CSS", "JavaScript", "Ajax", "Web APIs"],
@@ -39,6 +43,7 @@
         },
         {
             "id": 5,
+            "project_type": "webdev",
             "project_name": "Phrase guesser",
             "description": "A guessing game built in Javascript",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -48,7 +53,18 @@
         },
         {
             "id": 6,
+            "project_type": "webdev",
             "project_name": "Better2020",
+            "description": "A java-based phone app used to facilitate juvenile and preposterous wagers.",
+            "technologies": ["Java", "Kotlin"],
+            "live_link": "",
+            "github_link": "https://github.com/cswat/better2020",
+            "image_urls": ["../static/images/better2020-2.png", "../static/images/better2020-1.png"] 
+        },
+        {
+            "id": 7,
+            "project_type": "writing",
+            "project_name": "Paul's Pantry",
             "description": "A java-based phone app used to facilitate juvenile and preposterous wagers.",
             "technologies": ["Java", "Kotlin"],
             "live_link": "",
