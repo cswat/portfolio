@@ -118,11 +118,11 @@
                         "id": 11,
                         "project_type": "writing",
                         "project_name": "Paul's Pantry",
-                        "description": "Using the C-SPAN presidential debate stream, I created a dataset of interruptions from the notorious first presidential debate.",
+                        "description": "An aspiring celebrity chef resorts to crime to fuel his passion for cooking.",
                         "technologies": ["Adobe Audition","Adobe Premiere Pro", "Adobe Illustrator", "WriterDuet"],
                         "live_link": "https://vimeo.com/467957939",
                         "github_link": "",
-                        "image_urls": ["../static/images/Interruptionsviz1.png"]
+                        "image_urls": ["../static/images/PaulsPantry1.png"]
                     }
                 ],
             "project_types":
@@ -147,7 +147,7 @@
                         "short_name": "writing",
                         "url_path": "/writing",
                         "description": "A collection of creative projects I've been involved with."
-                    },
+                    }
                 ]
         }
 }

@@ -48,15 +48,15 @@ router.get('/webdev', (req,res)=>{
   res.render('showcase', {data, selectedShowcase, showcaseProjects});
 });
 
-// router.get('/writing', (req,res)=>{
-//   let selectedShowcase = data.project_types[3]
-//   let showcaseProjects = []
-//   data.projects.forEach(project => {
-//     if (project.project_type == 'writing') {
-//       showcaseProjects.push(project)
-//     };
-//   })
-//   res.render('showcase', {data, selectedShowcase, showcaseProjects});
-// });
+router.get('/writing', (req,res)=>{
+  let selectedShowcase = data.project_types[2]
+  let showcaseProjects = []
+  data.projects.forEach(project => {
+    if (project.project_type == 'writing') {
+      showcaseProjects.push(project)
+    };
+  })
+  res.render('showcase', {data, selectedShowcase, showcaseProjects});
+});
 
 module.exports=router
