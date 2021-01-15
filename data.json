@@ -9,6 +9,13 @@
                     "reason": "I found the course structure down-to-earth and engaging. Plus, they taught me how to build this portfolio!",
                     "link": "https://www.teamtreehouse.com",
                     "image_url": "../static/images/teamtreehouselogo.png"
+                },
+                {
+                    "name": "Cosori 5.8QT Air Fryer",
+                    "description": "Countertop convection oven.",
+                    "reason": "For someone who was 'meh' on cooking, this air fryer gave me a new outlook on the skill while providing some great eats.",
+                    "link": "https://www.cosori.com/airfryer",
+                    "image_url": "../static/images/cosori.jpg"
                 }
 
             ],
@@ -123,6 +130,16 @@
                         "live_link": "https://vimeo.com/467957939",
                         "github_link": "",
                         "image_urls": ["../static/images/PaulsPantry1.png"]
+                    },
+                    {
+                        "id": 12,
+                        "project_type": "webdev",
+                        "project_name": "Jouster",
+                        "description": "A browser-based eSports betting platform that leveraged newer decentralized concepts like smart contracts for peer-to-peer wagers.",
+                        "technologies": ["React", "Python", "Blockchain", "Smart contracts"],
+                        "live_link": "",
+                        "github_link": "",
+                        "image_urls": ["../static/images/Jouster1.png", "../static/images/Jouster2.png", "../static/images/Jouster3.png"] 
                     }
                 ],
             "project_types":
