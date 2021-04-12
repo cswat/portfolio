@@ -140,6 +140,16 @@
                         "live_link": "",
                         "github_link": "",
                         "image_urls": ["../static/images/Jouster1.png", "../static/images/Jouster2.png", "../static/images/Jouster3.png"] 
+                    },
+                    {
+                        "id":13,
+                        "project_type": "webdev",
+                        "project_name": "Fantasy language speech generator",
+                        "description": "A tool that generates a gibberish language based on user defined parameters.",
+                        "technologies": ["Python (Django)", "AWS Lightsail", "Apache"],
+                        "live_link": "https://prisencol.in/translator",
+                        "github_link": "https://github.com/cswat/fantasy-language-speech-generator",
+                        "image_urls": ["../static/images/translator1.png"] 
                     }
                 ],
             "project_types":
